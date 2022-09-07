@@ -1,4 +1,4 @@
-[![](https://imgur.com/a/ro9M0OV)]
+[![]https://imgur.com/XoXuHY5]
 # AdministradorDeTareas-SO
 
 ##Integrantes del equipo:
