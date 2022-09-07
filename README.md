@@ -1,7 +1,7 @@
 [![](https://i.imgur.com/XoXuHY5.png)]
 # AdministradorDeTareas-SO
 
-##Integrantes del equipo:
+## Integrantes del equipo:
 
 * Jorge Leonardo García Granados 0901-20-14138
 * Julia Rashell López Cifuentes 0901-20-5910
