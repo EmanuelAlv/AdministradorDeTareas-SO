@@ -1,8 +1,22 @@
 {
   "version": 2,
-  "dgSpecHash": "sgLgvRnZf1xksQrg3uQuTwlnVCVf6zhT1h3r2WcQrEwEGYMfGjmseCA/NNqt7EAwH9H6oXZeBlJFyom6Z7akmg==",
+  "dgSpecHash": "DASqhyalSXlcRo9wopYsc01DvyJe14wSEPG9xq+DgtthUDrkjKKW5aF1259g6l5e+MfemzSLf4cysiIPKdmFgw==",
   "success": true,
-  "projectFilePath": "D:\\Escritorio\\Proyecto\\Administrador de tareas\\AdministradorDeTareas-SO\\AdministradorDeTareas\\AdministradorDeTareas\\AdministradorDeTareas.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "projectFilePath": "C:\\Users\\USUARIO\\Desktop\\AdministradorDeTareas-SO\\AdministradorDeTareas\\AdministradorDeTareas\\AdministradorDeTareas.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\USUARIO\\.nuget\\packages\\metromodernui\\1.4.0\\metromodernui.1.4.0.nupkg.sha512",
+    "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"MetroModernUI 1.4.0\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\" en lugar de la plataforma de destino del proyecto \"net5.0-windows7.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "libraryId": "MetroModernUI",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    }
+  ]
 }
