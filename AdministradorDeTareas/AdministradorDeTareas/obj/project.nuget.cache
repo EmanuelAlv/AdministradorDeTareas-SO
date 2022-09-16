@@ -1,11 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "DASqhyalSXlcRo9wopYsc01DvyJe14wSEPG9xq+DgtthUDrkjKKW5aF1259g6l5e+MfemzSLf4cysiIPKdmFgw==",
+  "dgSpecHash": "VCCbuv2R/w/5cfEt93E3wXH+HecVPr0SbMITZqv79vyyAF70AnkS7daFwIHkgixrpiC1BQS7Has/fAgx6dC+Nw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\USUARIO\\Desktop\\AdministradorDeTareas-SO\\AdministradorDeTareas\\AdministradorDeTareas\\AdministradorDeTareas.csproj",
+  "projectFilePath": "C:\\Users\\jimen\\OneDrive\\Escritorio\\Proyecto\\AdministradorDeTareas-SO\\AdministradorDeTareas\\AdministradorDeTareas\\AdministradorDeTareas.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\USUARIO\\.nuget\\packages\\metromodernui\\1.4.0\\metromodernui.1.4.0.nupkg.sha512",
-    "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+    "C:\\Users\\jimen\\.nuget\\packages\\metromodernui\\1.4.0\\metromodernui.1.4.0.nupkg.sha512"
   ],
   "logs": [
     {
