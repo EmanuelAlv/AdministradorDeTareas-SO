@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\YOGA\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\YOGA\\.nuget\\packages",
+      "C:\\Users\\Eduard\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Eduard\\.nuget\\packages",
       "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
     ]
   }

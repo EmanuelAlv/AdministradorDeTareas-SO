@@ -1,14 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Jl9qUXVXm48N6SI8JfTzELPultN6oQ0Faap+wDjIvOwPx32hAV8jVQ7010LqAsaMDDGLU2nQnwn+e0xLuWVCBQ==",
+  "dgSpecHash": "B7DS1bI8d7sN9hRRHMSNTlCZNy5hCEAEyBtJmjEpf6QFQKFkQ6nM16rK/MKQn8r0SQyFKShIv2uVqQJCAzShgA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\YOGA\\Desktop\\AdministradorDeTareas-SO\\AdministradorDeTareas\\AdministradorDeTareas\\AdministradorDeTareas.csproj",
+  "projectFilePath": "C:\\Users\\Eduard\\Desktop\\AdministradorDeTareas-SO\\AdministradorDeTareas\\AdministradorDeTareas\\AdministradorDeTareas.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\YOGA\\.nuget\\packages\\metromodernui\\1.4.0\\metromodernui.1.4.0.nupkg.sha512",
-    "C:\\Users\\YOGA\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512",
-    "C:\\Users\\YOGA\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\YOGA\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\YOGA\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+    "C:\\Users\\Eduard\\.nuget\\packages\\metromodernui\\1.4.0\\metromodernui.1.4.0.nupkg.sha512"
   ],
   "logs": [
     {
