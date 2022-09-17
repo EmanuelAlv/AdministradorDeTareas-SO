@@ -1,17 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "K+n3xr0Sn+GqKGkLJEA8avyH/gnmLRCLAUXWBIbYQiwR1dHq9AEDTPwbJ+bW/LsFUwjATw3uxjhn7z0kWxxJ9w==",
+  "dgSpecHash": "Jl9qUXVXm48N6SI8JfTzELPultN6oQ0Faap+wDjIvOwPx32hAV8jVQ7010LqAsaMDDGLU2nQnwn+e0xLuWVCBQ==",
   "success": true,
-  "projectFilePath": "D:\\Users\\alvar\\OneDrive\\Escritorio\\Nueva carpeta\\AdministradorDeTareas-SO\\AdministradorDeTareas\\AdministradorDeTareas\\AdministradorDeTareas.csproj",
+  "projectFilePath": "C:\\Users\\YOGA\\Desktop\\AdministradorDeTareas-SO\\AdministradorDeTareas\\AdministradorDeTareas\\AdministradorDeTareas.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\alvar\\.nuget\\packages\\metromodernui\\1.4.0\\metromodernui.1.4.0.nupkg.sha512"
+    "C:\\Users\\YOGA\\.nuget\\packages\\metromodernui\\1.4.0\\metromodernui.1.4.0.nupkg.sha512",
+    "C:\\Users\\YOGA\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512",
+    "C:\\Users\\YOGA\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\YOGA\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\YOGA\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
   ],
   "logs": [
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "El paquete \"MetroModernUI 1.4.0\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\" en lugar de la plataforma de destino del proyecto \"net5.0-windows7.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "message": "El paquete \"MetroModernUI 1.4.0\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net5.0-windows7.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
       "libraryId": "MetroModernUI",
       "targetGraphs": [
         "net5.0-windows7.0"

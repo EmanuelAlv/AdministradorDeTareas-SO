@@ -114,6 +114,7 @@ namespace AdministradorDeTareas
                     if (p.ProcessName == txtProceso.Text)
                     {
                         p.Kill(); //Eliminamos el proceso
+                        UpdateProcessList();
                     }
                 }
             }
