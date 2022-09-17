@@ -51,10 +51,10 @@ namespace AdministradorDeTareas
             // button1
             // 
             this.button1.AccessibleName = "btnActualizar";
-            this.button1.Location = new System.Drawing.Point(32, 391);
+            this.button1.Location = new System.Drawing.Point(32, 370);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(134, 22);
+            this.button1.Size = new System.Drawing.Size(134, 31);
             this.button1.TabIndex = 0;
             this.button1.Text = "Actulizar";
             this.button1.UseVisualStyleBackColor = true;
@@ -63,10 +63,10 @@ namespace AdministradorDeTareas
             // button2
             // 
             this.button2.AccessibleName = "btnDetener";
-            this.button2.Location = new System.Drawing.Point(206, 391);
+            this.button2.Location = new System.Drawing.Point(185, 370);
             this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(129, 22);
+            this.button2.Size = new System.Drawing.Size(129, 31);
             this.button2.TabIndex = 1;
             this.button2.Text = "Detener";
             this.button2.UseVisualStyleBackColor = true;
@@ -75,10 +75,10 @@ namespace AdministradorDeTareas
             // button3
             // 
             this.button3.AccessibleName = "btnSalir";
-            this.button3.Location = new System.Drawing.Point(621, 391);
+            this.button3.Location = new System.Drawing.Point(628, 370);
             this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(116, 22);
+            this.button3.Size = new System.Drawing.Size(116, 31);
             this.button3.TabIndex = 2;
             this.button3.Text = "Salir";
             this.button3.UseVisualStyleBackColor = true;
@@ -96,7 +96,7 @@ namespace AdministradorDeTareas
             // txtNombreProceso
             // 
             this.txtNombreProceso.AutoSize = true;
-            this.txtNombreProceso.Location = new System.Drawing.Point(497, 420);
+            this.txtNombreProceso.Location = new System.Drawing.Point(520, 420);
             this.txtNombreProceso.Name = "txtNombreProceso";
             this.txtNombreProceso.Size = new System.Drawing.Size(113, 15);
             this.txtNombreProceso.TabIndex = 4;
@@ -105,7 +105,7 @@ namespace AdministradorDeTareas
             // txtProceso
             // 
             this.txtProceso.AutoSize = true;
-            this.txtProceso.Location = new System.Drawing.Point(628, 421);
+            this.txtProceso.Location = new System.Drawing.Point(651, 421);
             this.txtProceso.Name = "txtProceso";
             this.txtProceso.Size = new System.Drawing.Size(12, 15);
             this.txtProceso.TabIndex = 5;
@@ -145,7 +145,7 @@ namespace AdministradorDeTareas
             this.dgvAdministrador.EnableHeadersVisualStyles = false;
             this.dgvAdministrador.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.dgvAdministrador.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.dgvAdministrador.Location = new System.Drawing.Point(41, 68);
+            this.dgvAdministrador.Location = new System.Drawing.Point(-52, 62);
             this.dgvAdministrador.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgvAdministrador.Name = "dgvAdministrador";
             this.dgvAdministrador.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
@@ -161,48 +161,45 @@ namespace AdministradorDeTareas
             this.dgvAdministrador.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             this.dgvAdministrador.RowTemplate.Height = 29;
             this.dgvAdministrador.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvAdministrador.Size = new System.Drawing.Size(719, 304);
+            this.dgvAdministrador.Size = new System.Drawing.Size(854, 304);
             this.dgvAdministrador.TabIndex = 6;
+            this.dgvAdministrador.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvAdministrador_CellContentClick);
             // 
             // dgvProceso
             // 
+            this.dgvProceso.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.dgvProceso.HeaderText = "Proceso";
             this.dgvProceso.MinimumWidth = 6;
             this.dgvProceso.Name = "dgvProceso";
-            this.dgvProceso.ReadOnly = true;
-            this.dgvProceso.Width = 125;
             // 
             // dgvID
             // 
+            this.dgvID.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.dgvID.HeaderText = "ID";
             this.dgvID.MinimumWidth = 6;
             this.dgvID.Name = "dgvID";
-            this.dgvID.ReadOnly = true;
-            this.dgvID.Width = 125;
             // 
             // dgvFisica
             // 
+            this.dgvFisica.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.dgvFisica.HeaderText = "Memoria Fisica";
             this.dgvFisica.MinimumWidth = 6;
             this.dgvFisica.Name = "dgvFisica";
-            this.dgvFisica.ReadOnly = true;
-            this.dgvFisica.Width = 125;
             // 
             // dgvVirtual
             // 
+            this.dgvVirtual.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.dgvVirtual.HeaderText = "Memoria Virtual";
             this.dgvVirtual.MinimumWidth = 6;
             this.dgvVirtual.Name = "dgvVirtual";
-            this.dgvVirtual.ReadOnly = true;
-            this.dgvVirtual.Width = 125;
             // 
             // dgvCPU
             // 
+            this.dgvCPU.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.dgvCPU.HeaderText = "CPU";
             this.dgvCPU.MinimumWidth = 6;
             this.dgvCPU.Name = "dgvCPU";
-            this.dgvCPU.ReadOnly = true;
-            this.dgvCPU.Width = 125;
+            this.dgvCPU.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             // 
             // Form1
             // 
@@ -219,6 +216,7 @@ namespace AdministradorDeTareas
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Padding = new System.Windows.Forms.Padding(18, 60, 18, 15);
+            this.Resizable = false;
             this.Text = "Administrador de Tareas";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvAdministrador)).EndInit();

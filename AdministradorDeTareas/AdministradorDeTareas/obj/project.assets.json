@@ -39,28 +39,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Eduard\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\alvar\\.nuget\\packages\\": {},
+    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Eduard\\Desktop\\AdministradorDeTareas-SO\\AdministradorDeTareas\\AdministradorDeTareas\\AdministradorDeTareas.csproj",
+      "projectUniqueName": "D:\\Users\\alvar\\OneDrive\\Escritorio\\Nueva carpeta\\AdministradorDeTareas-SO\\AdministradorDeTareas\\AdministradorDeTareas\\AdministradorDeTareas.csproj",
       "projectName": "AdministradorDeTareas",
-      "projectPath": "C:\\Users\\Eduard\\Desktop\\AdministradorDeTareas-SO\\AdministradorDeTareas\\AdministradorDeTareas\\AdministradorDeTareas.csproj",
-      "packagesPath": "C:\\Users\\Eduard\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Eduard\\Desktop\\AdministradorDeTareas-SO\\AdministradorDeTareas\\AdministradorDeTareas\\obj\\",
+      "projectPath": "D:\\Users\\alvar\\OneDrive\\Escritorio\\Nueva carpeta\\AdministradorDeTareas-SO\\AdministradorDeTareas\\AdministradorDeTareas\\AdministradorDeTareas.csproj",
+      "packagesPath": "C:\\Users\\alvar\\.nuget\\packages\\",
+      "outputPath": "D:\\Users\\alvar\\OneDrive\\Escritorio\\Nueva carpeta\\AdministradorDeTareas-SO\\AdministradorDeTareas\\AdministradorDeTareas\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Eduard\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\alvar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net5.0-windows"
+        "net5.0-windows7.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -93,8 +93,7 @@
           "net47",
           "net471",
           "net472",
-          "net48",
-          "net481"
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -106,7 +105,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
       }
     }
   },
@@ -115,7 +114,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "El paquete \"MetroModernUI 1.4.0\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net5.0-windows7.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "message": "El paquete \"MetroModernUI 1.4.0\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\" en lugar de la plataforma de destino del proyecto \"net5.0-windows7.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
       "libraryId": "MetroModernUI",
       "targetGraphs": [
         "net5.0-windows7.0"
