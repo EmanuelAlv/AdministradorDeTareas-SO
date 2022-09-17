@@ -39,31 +39,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\alvar\\.nuget\\packages\\": {},
-    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\YOGA\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\alvar\\OneDrive\\Escritorio\\Nueva carpeta\\AdministradorDeTareas-SO\\AdministradorDeTareas\\AdministradorDeTareas\\AdministradorDeTareas.csproj",
+      "projectUniqueName": "C:\\Users\\YOGA\\Desktop\\AdministradorDeTareas-SO\\AdministradorDeTareas\\AdministradorDeTareas\\AdministradorDeTareas.csproj",
       "projectName": "AdministradorDeTareas",
-      "projectPath": "D:\\Users\\alvar\\OneDrive\\Escritorio\\Nueva carpeta\\AdministradorDeTareas-SO\\AdministradorDeTareas\\AdministradorDeTareas\\AdministradorDeTareas.csproj",
-      "packagesPath": "C:\\Users\\alvar\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\alvar\\OneDrive\\Escritorio\\Nueva carpeta\\AdministradorDeTareas-SO\\AdministradorDeTareas\\AdministradorDeTareas\\obj\\",
+      "projectPath": "C:\\Users\\YOGA\\Desktop\\AdministradorDeTareas-SO\\AdministradorDeTareas\\AdministradorDeTareas\\AdministradorDeTareas.csproj",
+      "packagesPath": "C:\\Users\\YOGA\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\YOGA\\Desktop\\AdministradorDeTareas-SO\\AdministradorDeTareas\\AdministradorDeTareas\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\alvar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\YOGA\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net5.0-windows7.0"
+        "net5.0-windows"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -93,10 +94,29 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[5.0.17, 5.0.17]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
@@ -105,7 +125,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   },
@@ -114,7 +134,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "El paquete \"MetroModernUI 1.4.0\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\" en lugar de la plataforma de destino del proyecto \"net5.0-windows7.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "message": "El paquete \"MetroModernUI 1.4.0\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net5.0-windows7.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
       "libraryId": "MetroModernUI",
       "targetGraphs": [
         "net5.0-windows7.0"
