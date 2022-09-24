@@ -45,25 +45,29 @@ namespace AdministradorDeTareas
             this.dgvFisica = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dgvVirtual = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dgvCPU = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAdministrador)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
             // 
             this.button1.AccessibleName = "btnActualizar";
-            this.button1.Location = new System.Drawing.Point(32, 370);
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.Location = new System.Drawing.Point(40, 388);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(134, 31);
             this.button1.TabIndex = 0;
-            this.button1.Text = "Actulizar";
+            this.button1.Text = "Actualizar";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
             this.button2.AccessibleName = "btnDetener";
-            this.button2.Location = new System.Drawing.Point(185, 370);
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.Location = new System.Drawing.Point(193, 388);
             this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(129, 31);
@@ -75,7 +79,8 @@ namespace AdministradorDeTareas
             // button3
             // 
             this.button3.AccessibleName = "btnSalir";
-            this.button3.Location = new System.Drawing.Point(628, 370);
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button3.Location = new System.Drawing.Point(636, 388);
             this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(116, 31);
@@ -87,29 +92,31 @@ namespace AdministradorDeTareas
             // txtContador
             // 
             this.txtContador.AutoSize = true;
-            this.txtContador.Location = new System.Drawing.Point(32, 420);
+            this.txtContador.Location = new System.Drawing.Point(40, 438);
             this.txtContador.Name = "txtContador";
-            this.txtContador.Size = new System.Drawing.Size(38, 15);
+            this.txtContador.Size = new System.Drawing.Size(124, 15);
             this.txtContador.TabIndex = 3;
-            this.txtContador.Text = "label1";
+            this.txtContador.Text = "Cantidad de procesos:";
             // 
             // txtNombreProceso
             // 
             this.txtNombreProceso.AutoSize = true;
-            this.txtNombreProceso.Location = new System.Drawing.Point(520, 420);
+            this.txtNombreProceso.Location = new System.Drawing.Point(557, 438);
             this.txtNombreProceso.Name = "txtNombreProceso";
             this.txtNombreProceso.Size = new System.Drawing.Size(113, 15);
             this.txtNombreProceso.TabIndex = 4;
             this.txtNombreProceso.Text = "Nombre De Proceso";
+            this.txtNombreProceso.Click += new System.EventHandler(this.txtNombreProceso_Click);
             // 
             // txtProceso
             // 
             this.txtProceso.AutoSize = true;
-            this.txtProceso.Location = new System.Drawing.Point(651, 421);
+            this.txtProceso.Location = new System.Drawing.Point(688, 439);
             this.txtProceso.Name = "txtProceso";
             this.txtProceso.Size = new System.Drawing.Size(12, 15);
             this.txtProceso.TabIndex = 5;
             this.txtProceso.Text = "-";
+            this.txtProceso.Click += new System.EventHandler(this.txtProceso_Click);
             // 
             // dgvAdministrador
             // 
@@ -120,10 +127,10 @@ namespace AdministradorDeTareas
             this.dgvAdministrador.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
             this.dgvAdministrador.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
             dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             dataGridViewCellStyle1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dgvAdministrador.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
@@ -138,7 +145,7 @@ namespace AdministradorDeTareas
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             dataGridViewCellStyle2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dgvAdministrador.DefaultCellStyle = dataGridViewCellStyle2;
@@ -150,10 +157,10 @@ namespace AdministradorDeTareas
             this.dgvAdministrador.Name = "dgvAdministrador";
             this.dgvAdministrador.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dgvAdministrador.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
@@ -162,6 +169,7 @@ namespace AdministradorDeTareas
             this.dgvAdministrador.RowTemplate.Height = 29;
             this.dgvAdministrador.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvAdministrador.Size = new System.Drawing.Size(854, 304);
+            this.dgvAdministrador.Style = MetroFramework.MetroColorStyle.Silver;
             this.dgvAdministrador.TabIndex = 6;
             this.dgvAdministrador.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvAdministrador_CellContentClick);
             // 
@@ -171,6 +179,7 @@ namespace AdministradorDeTareas
             this.dgvProceso.HeaderText = "Proceso";
             this.dgvProceso.MinimumWidth = 6;
             this.dgvProceso.Name = "dgvProceso";
+            this.dgvProceso.ReadOnly = true;
             // 
             // dgvID
             // 
@@ -178,6 +187,7 @@ namespace AdministradorDeTareas
             this.dgvID.HeaderText = "ID";
             this.dgvID.MinimumWidth = 6;
             this.dgvID.Name = "dgvID";
+            this.dgvID.ReadOnly = true;
             // 
             // dgvFisica
             // 
@@ -185,6 +195,7 @@ namespace AdministradorDeTareas
             this.dgvFisica.HeaderText = "Memoria Fisica";
             this.dgvFisica.MinimumWidth = 6;
             this.dgvFisica.Name = "dgvFisica";
+            this.dgvFisica.ReadOnly = true;
             // 
             // dgvVirtual
             // 
@@ -192,6 +203,7 @@ namespace AdministradorDeTareas
             this.dgvVirtual.HeaderText = "Memoria Virtual";
             this.dgvVirtual.MinimumWidth = 6;
             this.dgvVirtual.Name = "dgvVirtual";
+            this.dgvVirtual.ReadOnly = true;
             // 
             // dgvCPU
             // 
@@ -199,13 +211,25 @@ namespace AdministradorDeTareas
             this.dgvCPU.HeaderText = "CPU";
             this.dgvCPU.MinimumWidth = 6;
             this.dgvCPU.Name = "dgvCPU";
+            this.dgvCPU.ReadOnly = true;
             this.dgvCPU.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox1.Location = new System.Drawing.Point(284, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(51, 45);
+            this.pictureBox1.TabIndex = 7;
+            this.pictureBox1.TabStop = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 471);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.dgvAdministrador);
             this.Controls.Add(this.txtProceso);
             this.Controls.Add(this.txtNombreProceso);
@@ -216,10 +240,11 @@ namespace AdministradorDeTareas
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Padding = new System.Windows.Forms.Padding(18, 60, 18, 15);
-            this.Resizable = false;
+            this.Style = MetroFramework.MetroColorStyle.Silver;
             this.Text = "Administrador de Tareas";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvAdministrador)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -239,6 +264,7 @@ namespace AdministradorDeTareas
         private System.Windows.Forms.DataGridViewTextBoxColumn dgvFisica;
         private System.Windows.Forms.DataGridViewTextBoxColumn dgvVirtual;
         private System.Windows.Forms.DataGridViewTextBoxColumn dgvCPU;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

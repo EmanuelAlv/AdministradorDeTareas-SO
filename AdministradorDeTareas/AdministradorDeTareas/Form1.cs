@@ -11,7 +11,7 @@ using System.Windows.Forms;
 
 namespace AdministradorDeTareas
 {
-    public partial class Form1 : MetroFramework.Forms.MetroForm
+    public partial class Form1 : MetroFramework.Forms.MetroForm // llamado al form1 con la labreria MetroModernUI
     {
         public Form1()
         {
@@ -27,11 +27,11 @@ namespace AdministradorDeTareas
                 int n = dgvAdministrador.Rows.Add();
                 dgvAdministrador.Rows[n].Cells[0].Value = p.ProcessName;
                 dgvAdministrador.Rows[n].Cells[1].Value = p.Id;
-                dgvAdministrador.Rows[n].Cells[2].Value = DarFormato((p.WorkingSet64 / 1024).ToString());
-                dgvAdministrador.Rows[n].Cells[3].Value = DarFormato((p.VirtualMemorySize64 / 1024).ToString());
+                dgvAdministrador.Rows[n].Cells[2].Value = DarFormato((p.WorkingSet64 / 1024).ToString()); //Envia como argumentos los p. a la funcion DarFormato
+                dgvAdministrador.Rows[n].Cells[3].Value = DarFormato((p.VirtualMemorySize64 / 1024).ToString()); //Envia como argumentos los p. a la funcion DarFormato
                 dgvAdministrador.Rows[n].Cells[4].Value = p.SessionId;
             }
-            txtContador.Text = "Procesos Actuales: " + dgvAdministrador.Rows.Count.ToString();
+            txtContador.Text = "Procesos Actuales: " + dgvAdministrador.Rows.Count.ToString(); // Imprime en el label la cantidad de procesos corriendo
         }
         //Funcion para dar formato a los numeros que se muestran en memoria fisica y virtual
         private string DarFormato(string mb)
@@ -102,36 +102,47 @@ namespace AdministradorDeTareas
 
         private void button1_Click(object sender, EventArgs e)
         {
-            UpdateProcessList();
+            UpdateProcessList(); //Llama a la funcion que actualiza los procesos
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            try
-            {
-                foreach (Process p in Process.GetProcesses())
+            string  proceso = txtProceso.Text = dgvAdministrador.CurrentRow.Cells[0].Value.ToString();
+            foreach (Process p in Process.GetProcesses())
                 {
-                    if (p.ProcessName == txtProceso.Text)
+                    if (p.ProcessName == proceso) //Si el proces name es igual al procesos seleccionado. Procede a eliminarlo
                     {
                         p.Kill(); //Eliminamos el proceso
                         UpdateProcessList();
+                        MessageBox.Show("Proceso eliminado");
                     }
+                    /*else //Si no hay ningun proceso seleccionado. Mostrara un mensaje de error
+                    {
+                        MessageBox.Show("Error al detener.  Selecciona un proceso.");
+                        return;
+                    }*/
                 }
-            }
-            catch (Exception x) //Catch al presionar boton detener sin seleccionar un proceso antes
-            {
-                MessageBox.Show("Selecciona un proceso." + x, "error al detener", MessageBoxButtons.OK);
-            }
+            UpdateProcessList();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Close(); // Cierra el form del programa
         }
 
         private void dgvAdministrador_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             txtProceso.Text = dgvAdministrador.CurrentRow.Cells[0].Value.ToString();
+        }
+
+        private void txtProceso_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtNombreProceso_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
